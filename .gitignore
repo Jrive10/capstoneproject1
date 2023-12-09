@@ -1,0 +1,16 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# MongoDB
+.env
