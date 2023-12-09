@@ -13,10 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://juliorivera1993:<Jrivera10>@casatrack.2xaldqk.mongodb.net/?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect('mongodb+srv://juliorivera1993:<Jrivera10>@casatrack.2xaldqk.mongodb.net/?retryWrites=true&w=majority', );
 
 app.use('/projects', projectRoutes);
 app.use('/materials', materialRoutes);
